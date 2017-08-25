@@ -1,3 +1,4 @@
+// Returns true if there is internet access 
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
