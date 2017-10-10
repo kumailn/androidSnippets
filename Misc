@@ -1,4 +1,0 @@
-//
-
-//Add timestamp to notification
-.setWhen(System.currentTimeMillis()).setShowWhen(true)
