@@ -8,3 +8,9 @@ public void save(String myString){
     editor.putString("Item1", myString);
     editor.commit();
 }
+
+//Shorter method to save to SharedPreferences
+public String loadTwo(){
+        SharedPreferences sharedPreferences = getSharedPreferences("myData", Context.MODE_PRIVATE);
+        sharedPreferences.edit().putString("KEY", "VALUE").apply();
+}
