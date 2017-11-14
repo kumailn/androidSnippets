@@ -16,3 +16,14 @@
     <item android:title="Help"
         android:id="@+id/help"/>
 </menu>
+
+
+//Setup on click events for each Item1
+@Override
+public boolean onOptionsItemSelected(MenuItem item) {
+    if(item.getItemId() == R.id.Settings){
+
+        Toast.makeText(getApplicationContext(), "Click Works", Toast.LENGTH_SHORT).show();
+    }
+    return super.onOptionsItemSelected(item);
+}
