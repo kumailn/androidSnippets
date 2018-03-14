@@ -5,3 +5,6 @@ StringBuilder stringBuilder = new StringBuilder();
                 }
 
 String finalString = stringBuilder.toString();
+
+//Alternatively a much easier solution:
+String finalStringTwo = Arrays.toString(sampleArray); 
