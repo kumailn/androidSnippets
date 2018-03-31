@@ -1,7 +1,7 @@
 //Include in activity with menu
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-
+        //test
         MenuInflater menuInflater = getMenuInflater();
         menuInflater.inflate(R.menu.main_menu, menu);
         return super.onCreateOptionsMenu(menu);
